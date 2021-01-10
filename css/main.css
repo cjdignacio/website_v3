@@ -19,8 +19,6 @@ body{
   }
 }
 
-/* If the screen size is 1081px wide or more */
-@media screen and (min-width: 1081px) {
   img.avi{
     display: block;
     margin-top: 160px;
@@ -55,8 +53,9 @@ body{
 
   h3.notice{
     margin-top: 0px;
+    padding-bottom: 160px;
     font-weight: 300;
-    text-size: 18px;
+    font-size: 19px;
     text-transform: uppercase;
     text-align: center;
   }
