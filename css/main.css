@@ -19,6 +19,8 @@ body{
   }
 }
 
+/* If the screen size is 1081px wide or more */
+@media screen and (min-width: 1081px) {
   img.avi{
     display: block;
     margin-top: 160px;
@@ -64,6 +66,57 @@ body{
   {
     vertical-align: text-bottom;
     font-size: 20px;
+    color: black;
+  }
+}
+
+/* If the screen size is 1201px wide or more */
+@media screen and (max-width: 1080px) {
+  img.avi{
+    display: block;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32vh;
+    width: 32vh;
+    animation: rotation 3.5s infinite linear;
+  }
+
+  h1.name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5vh;
+    font-weight: 550;
+    margin-bottom: 0;
+  }
+
+  h2#about{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+    font-weight: 300;
+  }
+
+  a.about{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  h3.notice{
+    margin-top: 0px;
+    padding-bottom: 20vh;
+    font-weight: 300;
+    font-size: 2.1vh;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .material-icons.md-48
+  {
+    vertical-align: text-bottom;
+    font-size: 2.1vh;
     color: black;
   }
 }
