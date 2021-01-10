@@ -1,0 +1,70 @@
+html{
+  height: 100%;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  color: black;
+  font-family: 'Questrial', sans-serif;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* If the screen size is 1081px wide or more */
+@media screen and (min-width: 1081px) {
+  img.avi{
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 325px;
+    width: 325px;
+    animation: rotation 3.5s infinite linear;
+  }
+
+  h1.name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 550;
+    margin-bottom: 0px;
+  }
+
+  h2#about{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  a.about{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  h3.notice{
+    margin-top: 0px;
+    font-weight: 300;
+    text-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .material-icons.md-48
+  {
+    vertical-align: text-bottom;
+    font-size: 20px;
+    color: black;
+  }
+}
