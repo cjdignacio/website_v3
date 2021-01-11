@@ -47,7 +47,7 @@ Elements used belong to their respective holders. -->
     var ampm = h >= 12 ? 'PM' : 'AM';
     h = h % 12;
     h = h ? h : 12; // replace '0' w/ '12'
-    // h = addLeadingZero(h);
+    h = addLeadingZero(h);
     m = addLeadingZero(m);
     s = addLeadingZero(s);
 
