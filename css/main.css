@@ -74,6 +74,15 @@ body{
     text-transform: uppercase;
     font-weight: 300;
     font-size: 26px;
+    margin-bottom: 0;
+  }
+
+  h3#clockbox{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 12px;
     padding-bottom: 160px;
   }
 }
@@ -133,6 +142,15 @@ body{
     text-transform: uppercase;
     font-weight: 300;
     font-size: 2.9vh;
+    margin-bottom: 0;
+  }
+
+  h3#clockbox{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 3.55vh;
+    margin-top: 0.8vh;
     padding-bottom: 20vh;
   }
 }
