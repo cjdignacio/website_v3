@@ -30,7 +30,7 @@ body{
     /*margin-top: 13vh;
     margin-left: auto;
     margin-right: auto;*/
-    padding-top: 20vh;
+    padding-top: 30vh;
     border-radius: 325px;
     width: 325px;
     animation: rotation 3.5s infinite linear;
@@ -88,7 +88,7 @@ body{
     font-weight: 300;
     font-size: 32px;
     margin-top: 12px;
-    padding-bottom: 20vh;
+    padding-bottom: 30vh;
   }
 }
 
