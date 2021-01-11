@@ -55,7 +55,7 @@ body{
 
   h3.notice{
     margin-top: 0px;
-    margin-bottom: 45px;
+    margin-bottom: 70px;
     font-weight: 300;
     font-size: 19px;
     text-transform: uppercase;
@@ -73,7 +73,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 26px;
     padding-bottom: 160px;
   }
 }
@@ -114,7 +114,7 @@ body{
 
   h3.notice{
     margin-top: 0px;
-    margin-bottom: 5vh;
+    margin-bottom: 7vh;
     font-weight: 300;
     font-size: 2.1vh;
     text-transform: uppercase;
@@ -132,7 +132,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 2.1vh;
+    font-size: 4vh;
     padding-bottom: 20vh;
   }
 }
