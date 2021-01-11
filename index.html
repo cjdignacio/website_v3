@@ -25,18 +25,20 @@ Elements used belong to their respective holders. -->
 
     <!-- Footer content -->
     <h3 class="clock">MNL Time:&nbsp;<span id="clock"></span></h3>
+    <h3 id="clockbox"></h3>
 
-    <!-- Clock script courtesy of Dmytro Dzyubak
-    dzyubak.com -->
-
+    <!--Date and Time scripts -->
     <script type="text/javascript">
 
-      function addLeadingZero(n) {
-    return n < 10 ? '0' + n : n;
-}
+    // Clock script courtesy of Dmytro Dzyubak
+    // dzyubak.com
 
-function windTheClock(timeZoneOffset)
-{
+    function addLeadingZero(n) {
+      return n < 10 ? '0' + n : n;
+  }
+
+  function windTheClock(timeZoneOffset)
+  {
     var d = new Date();
     d.setHours(d.getUTCHours() + 800); // set time zone offset
     var h = d.getHours();
@@ -52,11 +54,34 @@ function windTheClock(timeZoneOffset)
     document.all["clock"].innerHTML = h + ':' + m + ':' + s
         + ' ' + ampm;
     setTimeout(function(){ windTheClock(800) }, 1000);
-}
+  }
 
-window.onload = function() {
-    windTheClock(2);
-}
+  window.onload = function() {
+      windTheClock(2);
+    }
+
+    // Date script courtesy of ricocheting.com
+    // ricocheting.com/code/javascript/html-generator/date-time-clock
+
+  var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+  function GetClock(){
+    var tzOffset = +8;//set this to the number of hours offset from UTC
+
+    var d=new Date();
+    var dx=d.toGMTString();
+    dx=dx.substr(0,dx.length -3);
+    d.setTime(Date.parse(dx))
+    d.setHours(d.getHours()+tzOffset);
+    var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+
+
+    var clocktext=""+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+    document.getElementById('clockbox').innerHTML=clocktext;
+  }
+
+  GetClock();
+  setInterval(GetClock,1000);
 
     </script>
 
