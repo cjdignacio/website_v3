@@ -8,6 +8,10 @@ body{
   background-color: #FFFFFF;
   color: black;
   font-family: 'Questrial', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @keyframes rotation {
@@ -23,9 +27,9 @@ body{
 @media screen and (min-width: 1081px) {
   img.avi{
     display: block;
-    margin-top: 13vh;
+    /*margin-top: 13vh;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     border-radius: 325px;
     width: 325px;
     animation: rotation 3.5s infinite linear;
@@ -83,7 +87,7 @@ body{
     font-weight: 300;
     font-size: 32px;
     margin-top: 12px;
-    padding-bottom: 13vh;
+    /*padding-bottom: 13vh;*/
   }
 }
 
@@ -91,9 +95,9 @@ body{
 @media screen and (max-width: 1080px) {
   img.avi{
     display: block;
-    margin-top: 13vh;
+    /*margin-top: 13vh;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     border-radius: 32vh;
     width: 32vh;
     animation: rotation 3.5s infinite linear;
@@ -151,6 +155,6 @@ body{
     font-weight: 300;
     font-size: 3.55vh;
     margin-top: 0.8vh;
-    padding-bottom: 13vh;
+    /*padding-bottom: 13vh;*/
   }
 }
