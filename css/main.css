@@ -88,7 +88,7 @@ body{
     font-weight: 300;
     font-size: 32px;
     margin-top: 12px;
-    /*padding-bottom: 13vh;*/
+    padding-bottom: 20vh;
   }
 }
 
@@ -156,6 +156,6 @@ body{
     font-weight: 300;
     font-size: 3.55vh;
     margin-top: 0.8vh;
-    padding-bottom: 20vh;
+    /*padding-bottom: 20vh;*/
   }
 }
