@@ -91,7 +91,7 @@ body{
 @media screen and (max-width: 1080px) {
   img.avi{
     display: block;
-    margin-top: 20vh;
+    margin-top: 18vh;
     margin-left: auto;
     margin-right: auto;
     border-radius: 32vh;
@@ -151,6 +151,6 @@ body{
     font-weight: 300;
     font-size: 3.55vh;
     margin-top: 0.8vh;
-    padding-bottom: 20vh;
+    padding-bottom: 18vh;
   }
 }
