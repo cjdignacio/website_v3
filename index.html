@@ -25,11 +25,13 @@ Elements used belong to their respective holders. -->
 
     <!-- Footer content -->
     <div class="footer">
-      <h3 class="clock">MNL Time:&nbsp;<span id="clock"></span></h3>
+      <h3 class="clock">MNL Time:&nbsp;<span class="clock" id="clock"></span></h3>
       <h3 id="clockbox"></h3>
+      <!-- <h3 id="dateTest">February 23, 2021</h3> -->
     </div>
 
     <!--Date and Time scripts -->
+    <script src="fittext.js"></script>
     <script type="text/javascript">
 
     // Clock script courtesy of Dmytro Dzyubak
@@ -84,6 +86,12 @@ Elements used belong to their respective holders. -->
 
   GetClock();
   setInterval(GetClock,1000);
+
+
+    // FitText script courtesy of adactio
+    // https://github.com/adactio/FitText.js
+
+  fitText(document.getElementById('clockbox', 'dateTest'), 1.7)
 
     </script>
 
