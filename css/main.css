@@ -35,7 +35,7 @@ body{
     animation: rotation 3.5s infinite linear;
   }
 
-  h1.name{
+  .name{
     text-align: center;
     text-transform: uppercase;
     font-size: 45px;
@@ -43,7 +43,7 @@ body{
     margin-bottom: 0px;
   }
 
-  h2#about{
+  #about{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 5px;
@@ -51,13 +51,13 @@ body{
     font-weight: 300;
   }
 
-  a.about{
+  .about{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
   }
 
-  h3.notice{
+  .notice{
     margin-top: 0px;
     margin-bottom: 70px;
     font-weight: 300;
@@ -73,7 +73,28 @@ body{
     color: black;
   }
 
-  h3.clock{
+  .footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+  }
+
+  .clock{
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  #clockbox{
+    font-weight: 300;
+    font-size: 1.14em;
+    margin-top: 12px;
+    /* padding-bottom: 10vh; */
+  }
+
+
+/*
+  .clock{
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
@@ -81,14 +102,14 @@ body{
     margin-bottom: 0;
   }
 
-  h3#clockbox{
+  #clockbox{
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 32px;
+    font-size: 1.54vmax;
     margin-top: 12px;
-    /*padding-bottom: 10vh;*/
-  }
+    padding-bottom: 10vh;
+  }*/
 }
 
 /* If the screen size is 1080px wide or less */
@@ -103,7 +124,7 @@ body{
     animation: rotation 3.5s infinite linear;
   }
 
-  h1.name{
+  .name{
     text-align: center;
     text-transform: uppercase;
     font-size: 5vh;
@@ -111,7 +132,7 @@ body{
     margin-bottom: 0;
   }
 
-  h2#about{
+  #about{
     text-align: center;
     margin-top: 0;
     margin-bottom: 0.75vh;
@@ -119,13 +140,13 @@ body{
     font-weight: 300;
   }
 
-  a.about{
+  .about{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
   }
 
-  h3.notice{
+  .notice{
     margin-top: 0px;
     margin-bottom: 6vh;
     font-weight: 300;
@@ -141,7 +162,25 @@ body{
     color: black;
   }
 
-  h3.clock{
+  .footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.9vh;
+  }
+
+  .clock{
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  #clockbox{
+    font-weight: 300;
+    font-size: 1.14em;
+    margin-top: 12px;
+
+  /*
+  .clock{
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
@@ -149,12 +188,13 @@ body{
     margin-bottom: 0;
   }
 
-  h3#clockbox{
+  #clockbox{
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 3.55vh;
+    font-size: 1.54vmax;
     margin-top: 0.8vh;
-    /*padding-bottom: 20vh;*/
+    padding-bottom: 20vh;
   }
+  */
 }
