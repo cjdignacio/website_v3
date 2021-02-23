@@ -200,7 +200,7 @@ body{
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
-    width: 525px;
+    width: 100vw;
   }
 
   .clock{
