@@ -48,8 +48,8 @@ body{
 
   #about{
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    text-transform: uppercase;
+    margin: 0;
     font-size: 22px;
     font-weight: 300;
   }
