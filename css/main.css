@@ -30,9 +30,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*margin-top: 13vh;
-    margin-left: auto;
-    margin-right: auto;*/
     border-radius: 325px;
     width: 325px;
     animation: rotation 3.5s infinite linear;
@@ -96,56 +93,6 @@ body{
     margin-top: 12px;
   }
 
-  #dateTest{
-    font-size: 26px;
-    font-weight: 300;
-    margin-top: 12px;
-  }
-
-  /*
-  .footer{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 26px;
-  }
-
-  .clock{
-    font-weight: 300;
-    font-size: 1em;
-    margin-bottom: 0;
-  }
-
-  #clockbox{
-    font-weight: 300;
-    font-size: 1.14em;
-    margin-top: 12px;
-    /* padding-bottom: 10vh;
-  }
-
-  #dateTest{
-    font-weight: 300;
-    font-size: 1.14em;
-    margin-top: 12px;
-    /* padding-bottom: 10vh;
-  }
-
-  .clock{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 26px;
-    margin-bottom: 0;
-  }
-
-  #clockbox{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 1.54vmax;
-    margin-top: 12px;
-    padding-bottom: 10vh;
-  }
-  */
 }
 
 /* If the screen size is 1080px wide or less */
@@ -154,9 +101,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*margin-top: 13vh;
-    margin-left: auto;
-    margin-right: auto;*/
     border-radius: 32vh;
     width: 32vh;
     animation: rotation 3.5s infinite linear;
@@ -204,7 +148,6 @@ body{
     margin: 0;
     text-align: center;
     text-transform: uppercase;
-    /* width: 100vw; */
   }
 
   .clock{
@@ -219,53 +162,4 @@ body{
     margin-top: 0.8vh;
   }
 
-  #dateTest{
-    font-size: 2.9vh;
-    font-weight: 300;
-    margin-top: 0.8vh;
-  }
-
-  /* .footer{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2.9vh;
-  }
-
-  .clock{
-    font-weight: 300;
-    font-size: 1em;
-    margin-bottom: 0;
-  }
-
-  #clockbox{
-    font-weight: 300;
-    font-size: 1.14em;
-    margin-top: 12px;
-  }
-
-  #dateTest{
-      font-weight: 300;
-      font-size: 1.14em;
-      margin-top: 12px;
-      /* padding-bottom: 10vh;
-    }
-
-  /*
-  .clock{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 2.9vh;
-    margin-bottom: 0;
-  }
-
-  #clockbox{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 1.54vmax;
-    margin-top: 0.8vh;
-    padding-bottom: 20vh;
-  }
-  */
 }
