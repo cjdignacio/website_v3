@@ -76,8 +76,8 @@ a{
 
   .outLink{
   text-align: center;
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 30px;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 35px;
   color: black;
   transition: 0.2s;
   }
@@ -163,8 +163,8 @@ a{
 
   .outLink{
   text-align: center;
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 3vh;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 3.2vh;
   color: black;
   transition: 0.2s;
   }
