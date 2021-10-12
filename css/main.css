@@ -32,7 +32,7 @@ a{
 }
 
 /* If the screen size is 1081px wide or more */
-@media screen and (min-width: 1081px) {
+/* @media screen and (min-width: 1081px) { */
   img{
     display: block;
     margin-left: auto;
@@ -117,9 +117,11 @@ a{
     margin-top: 12px;
   }
 
-}
+/* } */
 
 /* If the screen size is 1080px wide or less */
+
+/*
 @media screen and (max-width: 1080px) {
   img{
     display: block;
@@ -203,4 +205,4 @@ a{
     margin-top: 0.8vh;
   }
 
-}
+} */
