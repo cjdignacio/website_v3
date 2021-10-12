@@ -1,8 +1,8 @@
 /* ᜇᜒᜐᜒᜈ᜔ᜌ᜔ ᜈᜒ ᜇᜒᜌᜒᜁ ᜁᜄ᜔ᜈᜐᜒᜌ᜔ */
 
 html{
-  height: 60%;
-  /* height: -webkit-fill-available; */
+  height: 100%;
+  height: -webkit-fill-available;
 }
 
 body{
