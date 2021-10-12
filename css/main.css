@@ -1,5 +1,4 @@
-/* ᜇᜒᜐᜒᜈ᜔ᜌ᜔ ᜈᜒ ᜇᜒᜌᜒᜁ ᜁᜄ᜔ᜈᜐᜒᜌ᜔
-ᜀᜂᜆ᜔ᜐ᜔ ᜄᜒᜄᜒ ᜁᜅᜆ᜔ ᜎ᜔ᜇ᜔ᜐ᜔ */
+/* ᜇᜒᜐᜒᜈ᜔ᜌ᜔ ᜈᜒ ᜇᜒᜌᜒᜁ ᜁᜄ᜔ᜈᜐᜒᜌ᜔ */
 
 html{
   height: 100%;
@@ -16,6 +15,11 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
 }
 
 @keyframes rotation {
@@ -63,11 +67,23 @@ body{
 
   .notice{
     margin-top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     font-weight: 300;
     font-size: 19px;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  .outLink{
+  text-align: center;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 30px;
+  color: black;
+  transition: 0.2s;
+  }
+
+  .outLink:hover{
+    color: red;
   }
 
   .material-icons.md-48
@@ -75,10 +91,15 @@ body{
     vertical-align: text-bottom;
     font-size: 20px;
     color: black;
+    transition: 0.2s;
+  }
+
+  .material-icons.md-48:hover{
+    color: #404040;
   }
 
   .footer{
-    margin: 0;
+    margin-top: 40px;
     text-align: center;
     text-transform: uppercase;
     width: 500px;
@@ -114,7 +135,7 @@ body{
     text-transform: uppercase;
     font-size: 5vh;
     font-weight: 550;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   #about{
@@ -132,12 +153,24 @@ body{
   }
 
   .notice{
-    margin-top: 0px;
-    margin-bottom: 6vh;
+    margin-top: 0;
+    margin-bottom: 3.2vh;
     font-weight: 300;
     font-size: 2.1vh;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  .outLink{
+  text-align: center;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 3vh;
+  color: black;
+  transition: 0.2s;
+  }
+
+  .outLink:hover{
+    color: red;
   }
 
   .material-icons.md-48
@@ -145,10 +178,15 @@ body{
     vertical-align: text-bottom;
     font-size: 2.1vh;
     color: black;
+    transition: 0.2s;
+  }
+
+  .material-icons.md-48:hover{
+    color: #404040;
   }
 
   .footer{
-    margin: 0;
+    margin-top: 3.2vh;
     text-align: center;
     text-transform: uppercase;
   }
