@@ -128,8 +128,7 @@ a{
     border-radius: 32vh;
     width: 32vh;
     animation: rotation 3.5s infinite linear;
-    margin-bottom: 2.5vh;
-  }
+    }
 
   .name{
     text-align: center;
