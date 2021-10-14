@@ -1,33 +1,3 @@
-// Clock script courtesy of Dmytro Dzyubak
-// dzyubak.com
-
-function addLeadingZero(n) {
-  return n < 10 ? '0' + n : n;
-}
-
-function windTheClock(timeZoneOffset)
-{
-var d = new Date();
-d.setHours(d.getUTCHours() + 800); // set time zone offset
-var h = d.getHours();
-var m = d.getMinutes();
-var s = d.getSeconds();
-var ampm = h >= 12 ? 'PM' : 'AM';
-h = h % 12;
-h = h ? h : 12; // replace '0' w/ '12'
-h = addLeadingZero(h);
-m = addLeadingZero(m);
-s = addLeadingZero(s);
-
-document.all["clock"].innerHTML = h + ':' + m + ':' + s
-    + ' ' + ampm;
-setTimeout(function(){ windTheClock(800) }, 1000);
-}
-
-window.onload = function() {
-  windTheClock(2);
-}
-
 // Date script courtesy of ricocheting.com
 // ricocheting.com/code/javascript/html-generator/date-time-clock
 
@@ -41,11 +11,26 @@ var dx=d.toGMTString();
 dx=dx.substr(0,dx.length -3);
 d.setTime(Date.parse(dx))
 d.setHours(d.getHours()+tzOffset);
+
 var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
 
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
 
-var clocktext=""+tmonth[nmonth]+" "+ndate+", "+nyear+"";
-document.getElementById('clockbox').innerHTML=clocktext;
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nhour<=9) nhour="0"+nhour;
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+var timetext=""+nhour+":"+nmin+":"+nsec+ap+"";
+document.getElementById('time').innerHTML=timetext;
+
+var datetext=""+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+document.getElementById('date').innerHTML=datetext;
+
 }
 
 GetClock();
