@@ -23,8 +23,7 @@ body{
   min-height: 100%
   margin: auto;
   padding: auto;
-  overflow-x: hidden;
-  overflow-y: visible;
+  overflow: hidden;
 }
 
 a{
